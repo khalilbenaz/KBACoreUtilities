@@ -1,0 +1,43 @@
+name: Build and Test
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main, develop ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    strategy:
+      matrix:
+        dotnet-version: ['6.0.x', '7.0.x', '8.0.x']
+
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Setup .NET ${{ matrix.dotnet-version }}
+      uses: actions/setup-dotnet@v3
+      with:
+        dotnet-version: ${{ matrix.dotnet-version }}
+    
+    - name: Restore dependencies
+      run: dotnet restore
+    
+    - name: Build
+      run: dotnet build --configuration Release --no-restore
+    
+    - name: Test
+      run: dotnet test --configuration Release --no-build --verbosity normal
+    
+    - name: Pack
+      if: matrix.dotnet-version == '8.0.x'
+      run: dotnet pack --configuration Release --no-build --output ./artifacts
+    
+    - name: Upload artifacts
+      if: matrix.dotnet-version == '8.0.x'
+      uses: actions/upload-artifact@v3
+      with:
+        name: nuget-package
+        path: ./artifacts/*.nupkg
