@@ -7,20 +7,39 @@
     <LangVersion>latest</LangVersion>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageId>KBA.CoreUtilities</PackageId>
-    <PackageVersion>1.3.1</PackageVersion>
-    <Authors>KBA Team</Authors>
+    <PackageVersion>1.3.3</PackageVersion>
+    <Authors>Khalil Benazzouz</Authors>
     <Title>KBA Core Utilities - Complete Enterprise .NET Toolkit</Title>
-    <Description>The most comprehensive multi-target .NET utility library (.NET 6.0/7.0/8.0) for enterprise applications. Includes 500+ methods: TaskExtensions (async/await helpers with timeout, retry, fire-and-forget), ReflectionUtils (property/method invocation, mapping, attributes), PerformanceUtils (profiling, caching, benchmarking), ConfigurationExtensions (typed config access, validation), plus all previous features: StringExtensions, CollectionExtensions, ObjectExtensions, ValidationUtils (IBAN, credit cards), CryptographyUtils (AES/RSA), FileUtils, DateTimeUtils, SerializationUtils, 200+ countries/currencies. Perfect for FinTech, enterprise, microservices, and modern .NET applications.</Description>
+    <Description>The most comprehensive multi-target .NET utility library (.NET 6.0/7.0/8.0) for enterprise applications. Includes 500+ methods: TaskExtensions (async/await helpers with timeout, retry, fire-and-forget), ReflectionUtils (property/method invocation, mapping, attributes), PerformanceUtils (profiling, caching, benchmarking), ConfigurationExtensions (typed config access, validation), plus all previous features: StringExtensions, CollectionExtensions, ObjectExtensions, ValidationUtils (IBAN, credit cards), CryptographyUtils (AES/RSA), FileUtils, DateTimeUtils, SerializationUtils, 200+ countries/currencies. Perfect for FinTech, enterprise, microservices, and modern .NET applications. 
+
+Author: Khalil Benazzouz - https://www.linkedin.com/in/khalilbenazzouz/
+GitHub: https://github.com/khalilbenaz/KBACoreUtilities
+Issues: https://github.com/khalilbenaz/KBACoreUtilities/issues</Description>
     <PackageTags>kba;utilities;financial;fintech;mobile-money;emv;qr-code;payment;country;phone;currency;validation;serialization;json;xml;api;rest;soap;datetime;decimal;string;africa;uemoa;cemac;iso4217;iso3166;e164;barcode;worldwide;international;iban;credit-card;bic;swift;vat;encryption;aes;rsa;cryptography;hash;signature;file;compression;mime;extensions;string-extensions;collection-extensions;linq;multi-targeting;net6;net7;net8;task;async;await;reflection;performance;caching;profiling;configuration;enterprise</PackageTags>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
-    <Copyright>Copyright © KBA 2025</Copyright>
-    <Company>KBA</Company>
+    <Copyright>Copyright © Khalil Benazzouz 2025</Copyright>
+    <Company>Khalil Benazzouz</Company>
     <Product>KBA Core Utilities</Product>
-    <AssemblyVersion>1.3.1.0</AssemblyVersion>
-    <FileVersion>1.3.1.0</FileVersion>
+    <AssemblyVersion>1.3.3.0</AssemblyVersion>
+    <FileVersion>1.3.3.0</FileVersion>
     <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/khalilbenaz/KBACoreUtilities</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageProjectUrl>https://github.com/khalilbenaz/KBACoreUtilities</PackageProjectUrl>
     <PackageReleaseNotes>
+      Version 1.3.3:
+      - Added LinkedIn profile link in package description
+      - Enhanced contact information visibility on NuGet.org
+      - Direct links to GitHub repository and issues in description
+      
+      Version 1.3.2:
+      - Added GitHub repository URL to NuGet package
+      - Added project URL linking to GitHub
+      - Updated author information (Khalil Benazzouz)
+      - Added LinkedIn profile link
+      - Enhanced package metadata with repository information
+      
       Version 1.3.1:
       - Updated README with complete documentation for all v1.3.0 features
       - Added comprehensive examples for TaskExtensions, ReflectionUtils, PerformanceUtils, ConfigurationExtensions

@@ -295,11 +295,20 @@ namespace KBA.CoreUtilities.Extensions
 
 Feel free to open an issue with the `question` label if you have any questions about contributing.
 
+- 📧 [GitHub Issues](https://github.com/khalilbenaz/KBACoreUtilities/issues)
+- 💼 [LinkedIn - Khalil Benazzouz](https://www.linkedin.com/in/khalilbenazzouz/)
+
 ## Recognition
 
 Contributors will be recognized in:
 - GitHub contributors page
 - Release notes
 - Project documentation
+
+## Maintainer
+
+**Khalil Benazzouz**
+- GitHub: [@khalilbenaz](https://github.com/khalilbenaz)
+- LinkedIn: [Khalil Benazzouz](https://www.linkedin.com/in/khalilbenazzouz/)
 
 Thank you for contributing to KBA.CoreUtilities! 🚀

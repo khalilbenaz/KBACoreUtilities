@@ -293,7 +293,7 @@ Contributions are welcome! Please read our [Contributing Guide](CONTRIBUTING.md)
 
 ## 📞 Support
 
-- 📧 **Issues**: [GitHub Issues](https://github.com/VOTRE_USERNAME/KBACoreUtilities/issues)
+- 📧 **Issues**: [GitHub Issues](https://github.com/khalilbenaz/KBACoreUtilities/issues)
 - 📦 **NuGet**: [Package Page](https://www.nuget.org/packages/KBA.CoreUtilities/)
 - 📖 **Documentation**: See [README](./KBA.CoreUtilities/README.md)
 
@@ -312,7 +312,11 @@ If you find this library useful, please consider giving it a star ⭐
 
 ## 🎖️ Credits
 
-Developed and maintained by **KBA Team**
+Developed and maintained by **Khalil Benazzouz**
+
+- GitHub: [@khalilbenaz](https://github.com/khalilbenaz)
+- LinkedIn: [Khalil Benazzouz](https://www.linkedin.com/in/khalilbenazzouz/)
+- Issues: [Report an issue](https://github.com/khalilbenaz/KBACoreUtilities/issues)
 
 ## 📊 Stats
 
